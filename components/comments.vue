@@ -1,0 +1,18 @@
+<template>
+	<div>
+		<div class="spinner-border text-primary" role="status">
+  		<span class="sr-only">Loading...</span>
+		<slot></slot>
+</div>
+	</div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
